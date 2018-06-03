@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(76, 82, 87);
+}
+header {
+    margin: 0 auto;
+    width: 50vw;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+header img {
+    width: 50%;
+}
+main {
+    margin: 0 auto;
+    width: 50vw;
+}
+main #wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+h1 {
+    font-size: 21vw;
+}
+#beerContainer {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+#beerContainer div {
+    background: url(../gfx/beer.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    height: 5vw;
+}
